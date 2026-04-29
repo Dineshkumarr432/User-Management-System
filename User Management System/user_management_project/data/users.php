@@ -1,0 +1,21 @@
+<?php
+
+function getUsers()
+{
+    return [
+        [
+            "username" => "john_doe",
+            "email" => "john@example.com",
+            "password" => "password123"
+        ],
+
+        [
+            "username" => "jane_smith",
+            "email" => "jane@example.com",
+            "password" => "securepass"
+        ]
+    ];
+}
+
+
+?>
